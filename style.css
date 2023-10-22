@@ -42,6 +42,50 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
+    /* topbar ka code*/
+  .topbar {
+    width : 100%;
+    height: 48px;
+    position: fixed;
+    background-color: #111;
+    
+    
+    top: 0; /* Stay at the top */
+    left: 0;
+    text-align: right;
+    
+  }
+
+  .topbar a{
+    
+    
+    padding: 13px 20px;
+    
+ 
+    color: #818181;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  
+  .topbar a:hover {
+    color: #f1f1f1;
+  }
+
+/*login boxes*/
+
+  .box{
+    
+    
+  }
+
+
+  
+  
+  
+
+
 
 
 
