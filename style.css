@@ -79,8 +79,13 @@ body {
 
 .main a img:hover{
     color: rgba(0, 0, 0, 0.4):
+    background-color: rgba(0, 0, 0, 0.4):
 }
 
+.main a:hover{
+    color: rgba(0, 0, 0, 0.4):
+    background-color: rgba(0, 0, 0, 0.4):
+}
 
 
 
