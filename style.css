@@ -85,6 +85,7 @@ body {
 
 .main a img:hover {
   filter: brightness(0.7); /* Reduce brightness to make the image darker */
+    transform: scale(1.1);
 }
 
 
