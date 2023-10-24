@@ -36,7 +36,7 @@ body {
     padding: 20px 20px;
     font-size: larger;
     margin-top: 48px;
-    background image:"https://img.freepik.com/free-photo/top-view-office-supplies-with-copy-space_23-2148236818.jpg?w=996&t=st=1698150879~exp=1698151479~hmac=4539139ff9c2274d02b3ce6c1bbea406fa4db58243d2a08ab216b65da4cf6de9";
+    background image:url("https://img.freepik.com/free-photo/top-view-office-supplies-with-copy-space_23-2148236818.jpg?w=996&t=st=1698150879~exp=1698151479~hmac=4539139ff9c2274d02b3ce6c1bbea406fa4db58243d2a08ab216b65da4cf6de9");
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
