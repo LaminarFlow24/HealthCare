@@ -80,7 +80,8 @@ body {
 
 
 .main a img {
-  transition: filter 0.3s; /* Add a transition for smooth effect */
+  transition: filter 0.3s;
+    padding: 10px 10px 10px 10px;/* Add a transition for smooth effect */
 }
 
 .main a img:hover {
