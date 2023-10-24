@@ -77,14 +77,14 @@ body {
     color: #f1f1f1;
   }
 
-.main a img:hover{
-    color: rgba(0, 0, 0, 0.4):
-    background-color: rgba(0, 0, 0, 0.4):
+
+
+.main a img {
+  transition: filter 0.3s; /* Add a transition for smooth effect */
 }
 
-.main a:hover{
-    color: rgba(0, 0, 0, 0.4):
-    background-color: rgba(0, 0, 0, 0.4):
+.main a img:hover {
+  filter: brightness(0.7); /* Reduce brightness to make the image darker */
 }
 
 
