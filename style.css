@@ -2,21 +2,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-/* The sidebar menu */
+
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 240px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%; 
+    width: 240px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
     left: 0;
-    background-color: #111; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #111; 
+    overflow-x: hidden; 
     padding-top: 20px;
     margin-top: 48px;
   }
   
-  /* The navigation menu links */
+  
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -25,27 +25,24 @@ body {
     display: block;
   }
   
-  /* When you mouse over the navigation links, change their color */
+  
   .sidenav a:hover {
     color: #f1f1f1;
   }
   
-  /* Style page content */
+  
   .main {
-    margin-left: 240px; /* Same as the width of the sidebar */
+    margin-left: 240px; 
     padding: 20px 20px;
     font-size: larger;
     margin-top: 48px;
     background image:url("https://img.freepik.com/free-photo/top-view-office-supplies-with-copy-space_23-2148236818.jpg?w=996&t=st=1698150879~exp=1698151479~hmac=4539139ff9c2274d02b3ce6c1bbea406fa4db58243d2a08ab216b65da4cf6de9");
   }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  
 
-  /* topbar ka code*/
+
+
   .topbar {
     width : 100%;
     height: 48px;
@@ -53,7 +50,7 @@ body {
     background-color: #111;
     
     
-    top: 0; /* Stay at the top */
+    top: 0;
     left: 0;
     text-align: right;
     
@@ -76,12 +73,7 @@ body {
     color: #f1f1f1;
   }
 
-/*login boxes*/
 
-  .box{
-    
-    
-  }
 
 
 
