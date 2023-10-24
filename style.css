@@ -81,12 +81,14 @@ body {
 
 .main a img {
   transition: filter 0.3s;
-    padding: 10px 10px 10px 10px;/* Add a transition for smooth effect */
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)/* Add a transition for smooth effect */
 }
 
 .main a img:hover {
   filter: brightness(0.7); /* Reduce brightness to make the image darker */
     transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
 }
 
 
