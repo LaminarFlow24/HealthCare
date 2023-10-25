@@ -97,6 +97,12 @@ body {
 .main a{
     color: #028090;
     text-decoration:none;
+    transition: transform 0.3s;
+}
+
+.main a:hover{
+   transform: scale(1.05);
+    color: #062632;
 }
 
 .container{
