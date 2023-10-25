@@ -108,8 +108,8 @@ body {
 /* This is for emebedded links shadows */
 .container{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 560px; 
-    height: 315px; 
+    width: 580px; 
+     
     border: 5px #011627;
           }
 
