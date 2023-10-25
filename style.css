@@ -20,7 +20,7 @@ body {
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
-    font-family: Roboto Slab;
+    font-family: Slabo;
     
   }
   
@@ -46,7 +46,7 @@ body {
     padding: 10px 8px 10px 16px;
     text-decoration: none;
     font-size: 25px;
-    font-family: lexend;
+    font-family: Open Sans;
     color: #89898A;
     display: block;
   }
