@@ -13,8 +13,6 @@ body {
     left: 0;
     background-color: #011627; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    margin-top: 48px;
   }
   
   /* The navigation menu links */
