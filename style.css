@@ -85,6 +85,8 @@ body {
     transition: transform 0.3s;
     padding: 15px 15px 15px 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)/* Add a transition for smooth effect */
+    white-space: nowrap; 
+    overflow-x: auto;
 }
 
 .main a img:hover {
