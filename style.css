@@ -3,6 +3,10 @@ body {
     background-color: #F6F7F8;
   }
 
+p {
+    color:#00BFB2;
+}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want. "auto" h  eight */
