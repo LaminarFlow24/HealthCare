@@ -94,17 +94,23 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
 }
 
-.main a{
+/* links in main */
+.main a {
     color: #028090;
-    text-decoration:none;
-    transition: transform 0.3s;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-.main a:hover{
-   transform: scale(1.05);
+.main .link-container:hover {
+    transform: scale(1.15);
+}
+
+.main a:hover {
     color: #062632;
 }
 
+
+/* This is for emebedded links shadows */
 .container{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     width: 560px; 
