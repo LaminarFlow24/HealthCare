@@ -118,6 +118,9 @@ body {
     border: 5px solid black;
           }
 
+.main a:visited {
+  text-decoration:underline;
+}
 
 
   
