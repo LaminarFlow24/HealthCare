@@ -72,7 +72,9 @@ body {
   }
 
 
-
+.main img{
+    round-border:25px;
+}
 
 
 .main a img {
