@@ -106,12 +106,18 @@ body {
 
 
 /* This is for emebedded links shadows */
-.container{
+.container {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 580px; 
-     
-    border: 5px #011627;
-          }
+    width: 580px;
+    border: 5px solid #011627;
+    text-align: center; /* Center-align text */
+}
+
+.container a {
+    display: block; /* Make links a block element */
+    text-align: center; /* Center-align links within the container */
+}
+
 
 .main a:visited {
   text-decoration:underline;
