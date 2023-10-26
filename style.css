@@ -118,6 +118,7 @@ body {
 .container a {
     display: block; /* Make links a block element */
     text-align: center; /* Center-align links within the container */
+    width: 90%;
 }
 
 
