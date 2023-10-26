@@ -108,9 +108,11 @@ body {
 /* This is for emebedded links shadows */
 .container {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    width: 580px;
+    width: 45%;
     border: 5px solid #011627;
-    text-align: center; /* Center-align text */
+    text-align: center; 
+    /* Center-align text */
+    border-radius: 25px;
 }
 
 .container a {
