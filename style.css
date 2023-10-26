@@ -114,6 +114,7 @@ body {
     text-align: center; 
     /* Center-align text */
     border-radius: 25px;
+    height: auto;
 }}
 
 .container a {
