@@ -311,7 +311,7 @@ border-left: 4px solid blue;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-input[type=text] {
+input[type=search] {
   background-color: white;
   background-image: url('searchicon.png');
   background-position: 10px 10px;
@@ -321,7 +321,7 @@ input[type=text] {
   
   
 }
-input[type=text]:focus {
+input[type=search]:focus {
   width: 100%;
 }
 
