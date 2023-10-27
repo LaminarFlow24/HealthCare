@@ -229,11 +229,9 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+    border:none;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-     border-top: none;
-    border-bottom: none;
-    border-right: none;
 }
 
 input[type=email] {
@@ -241,23 +239,20 @@ input[type=email] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+    border:none;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-     border-top: none;
-    border-bottom: none;
-    border-right: none;
 }
 
 input[type=password] {
   width: 20%;
   padding: 12px 20px;
   margin: 8px 0;
+    border:none;
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-     border-top: none;
-    border-bottom: none;
-    border-right: none;
+   
 }
 
 input[type=contact] {
@@ -265,11 +260,9 @@ input[type=contact] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+    border:none;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-     border-top: none;
-    border-bottom: none;
-    border-right: none;
 }
 
 input[type=contact] {
@@ -277,11 +270,9 @@ input[type=contact] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+    border:none;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-     border-top: none;
-    border-bottom: none;
-    border-right: none;
 }
 
 .correct {
