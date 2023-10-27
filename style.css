@@ -328,10 +328,10 @@ input[type=search]:focus {
 }
 
 input[type=search]{
-    float: right;
+    float: left;
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 44px;
     padding: 5px;
     border-radius:25px;
 }
