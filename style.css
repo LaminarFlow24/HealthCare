@@ -232,6 +232,33 @@ input[type=text] {
 border-left: 4px solid blue;
     background-color: #DBEAFF;
 }
+
+input[type=email] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+border-left: 4px solid blue;
+    background-color: #DBEAFF;
+}
+
+input[type=password] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+border-left: 4px solid blue;
+    background-color: #DBEAFF;
+}
+
+input[type=contact] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+border-left: 4px solid blue;
+    background-color: #DBEAFF;
+}
   
   
   
