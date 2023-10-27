@@ -17,7 +17,7 @@ body {
 
   .topbar a{
     padding: 13.2px 20px;
-    color: #1F271B;
+    color: #0E120C;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -39,7 +39,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #1F271B; /* Black */
+    background-color: #0E120C; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
   }
   
