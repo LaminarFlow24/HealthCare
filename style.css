@@ -323,8 +323,12 @@ input[type=search] {
   
 }
 input[type=search]:focus {
-  display:block;
+  
   width: 25%;
+}
+
+input[type=search]{
+    float: right;
 }
 
 .topic a {
