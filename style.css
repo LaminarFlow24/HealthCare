@@ -1,6 +1,6 @@
 body {
     font-family: Noto Sans;
-    background-color: #E2E8F4;
+    background-color: #CBD4C8;
   }
  /* topbar ka code*/
   .topbar {
@@ -16,7 +16,7 @@ body {
 
   .topbar a{
     padding: 13px 20px;
-    color: #003642;
+    color: #1F271B;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -38,7 +38,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #1E404D; /* Black */
+    background-color: #1F271B; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
   }
   
