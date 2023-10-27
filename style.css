@@ -150,6 +150,11 @@ p {
     border-radius: 25px;
     background-color: #FFFF00;
 }
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between; /* Align items side by side */
+}
     
     
   
