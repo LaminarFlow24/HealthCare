@@ -329,6 +329,10 @@ input[type=search]:focus {
 
 input[type=search]{
     float: right;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
 }
 
 .topic a {
