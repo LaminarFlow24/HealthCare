@@ -252,18 +252,8 @@ input[type=password] {
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
-   
 }
 
-input[type=contact] {
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-    border:none;
-border-left: 4px solid blue;
-    background-color: #DBEAFF;
-}
 
 input[type=number] {
   width: 20%;
