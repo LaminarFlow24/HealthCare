@@ -319,21 +319,17 @@ input[type=search] {
   background-repeat: no-repeat;
   padding-left: 40px;  
   transition: width 0.4s ease-in-out;
+     float: left;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+    padding: 12px 20px 12px 40px;
+    border-radius:20px;
   
   
 }
 input[type=search]:focus {
-  
   width: 25%;
-}
-
-input[type=search]{
-    float: left;
-    display: inline-block;
-    width: 150px;
-    height: 44px;
-    padding: 5px;
-    border-radius:25px;
 }
 
 .topic a {
