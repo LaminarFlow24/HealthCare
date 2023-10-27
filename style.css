@@ -231,6 +231,9 @@ input[type=text] {
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
+     border-top: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 input[type=email] {
@@ -240,6 +243,9 @@ input[type=email] {
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
+     border-top: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 input[type=password] {
@@ -249,6 +255,9 @@ input[type=password] {
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
+     border-top: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 input[type=contact] {
@@ -258,6 +267,9 @@ input[type=contact] {
   box-sizing: border-box;
 border-left: 4px solid blue;
     background-color: #DBEAFF;
+     border-top: none;
+    border-bottom: none;
+    border-right: none;
 }
 
 .correct {
