@@ -259,11 +259,50 @@ input[type=contact] {
 border-left: 4px solid blue;
     background-color: #DBEAFF;
 }
-  
-  
-  
 
+.correct {
+    
+    width: 20%;
+    height: auto;
+    text-align: center; 
+    /* Center-align text */
+    border-radius: 25px;
+    background-color: #FFFF00;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+  
+.wrong {
+    
+    width: 20%;
+    height: auto;
+    text-align: center; 
+    /* Center-align text */
+    border-radius: 25px;
+    background-color: #FFFF00;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}  
 
+.unattempted {
+    
+    width: 20%;
+    height: auto;
+    text-align: center; 
+    /* Center-align text */
+    border-radius: 25px;
+    background-color: #FFFF00;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.marked {
+    
+    width: 20%;
+    height: auto;
+    text-align: center; 
+    /* Center-align text */
+    border-radius: 25px;
+    background-color: #FFFF00;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
 
 
 
