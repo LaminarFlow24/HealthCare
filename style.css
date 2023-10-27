@@ -272,6 +272,18 @@ border-left: 4px solid blue;
     border-right: none;
 }
 
+input[type=contact] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+border-left: 4px solid blue;
+    background-color: #DBEAFF;
+     border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
 .correct {
     
     width: 20%;
