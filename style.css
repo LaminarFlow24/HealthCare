@@ -149,6 +149,7 @@ p {
     /* Center-align text */
     border-radius: 25px;
     background-color: #FFFF00;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .snotebox {
@@ -159,6 +160,7 @@ p {
     /* Center-align text */
     border-radius: 25px;
     background-color: #ffd500;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .pnotebox {
@@ -169,6 +171,7 @@ p {
     /* Center-align text */
     border-radius: 25px;
     background-color: #00c8ff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .container-wrapper {
