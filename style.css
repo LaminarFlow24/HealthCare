@@ -229,7 +229,7 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-border-left: 4px #74B0FF;
+border-left: 4px solid blue;
     background-color: #DBEAFF;
 }
   
