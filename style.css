@@ -311,7 +311,13 @@ border-left: 4px solid blue;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-
+input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
 
   
   
