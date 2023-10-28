@@ -1,76 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="https://laminarflow24.github.io/HealthCare/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Buddy</title>
-    <style>
-        p {
-            color:#01708F;
-        }
-    </style>
-    <link rel = "icon" href =  
-"Logo (2).png" 
-        type = "image/x-icon">
+  <title>Random Links with Images</title>
+  <style>
+    img {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+      margin: 10px;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="sidenav">
-        <img src="https://laminarflow24.github.io/HealthCare/Logo (2).png" height="120px" width="120px"
-        style="display: block; margin:30px auto; padding-bottom: 15px; padding-top: 0px;" > 
-        <a href="https://laminarflow24.github.io/HealthCare/index.html"> Home </a>
-        <a href="https://laminarflow24.github.io/HealthCare/quiz.html"> Quiz </a>
-        <a href="https://laminarflow24.github.io/HealthCare/study.html"> Study material </a>
-        <a href="https://laminarflow24.github.io/HealthCare/review.html"> Performance Review </a>
-        
-        
-        
-    </div>
 
-    <div class="topbar">
-        
-        <a href="https://laminarflow24.github.io/HealthCare/signup.html"> SIGN UP</a>
-        
-        <a href="https://laminarflow24.github.io/HealthCare/login.html"> LOG IN</a>
-          
-        <a href="https://laminarflow24.github.io/HealthCare/contact.html"> CONTACT</a>
-        
-        <a href="https://laminarflow24.github.io/HealthCare/aboutus.html"> ABOUT US</a>
-        
-        <a href="https://laminarflow24.github.io/HealthCare/feedback.html"> FEEDBACK</a>
-        
-    </div>
+  <button id="generateButton">Generate Random Links</button>
 
-    
-        <div class="main">
-        <div style="padding-bottom: 20px;">
-    <img src="https://laminarflow24.github.io/HealthCare/review.png" width="100%">
-</div>
-        <div class="container-wrapper">
-        <div class="correct">
-            <p> LINK 1 </p>
-            
-        </div>
-        <div class="wrong">
-            <p> LINK 2 </p>
-           
-        </div>
-        <div class="unattempted">
-            <p> LINK 3 </p>
-            
-        </div>
-            <div class="marked">
-            <p> LINK 4 </p>
-            
-        </div>
-                     
-        
-    </div></div>
+  <div id="linksContainer">
+    <!-- Images will be displayed here and will link to URLs -->
+  </div>
 
+  <script>
+    // Array of 20 sample links
+    const linksArray = [
+      'https://youtu.be/oKos0Ozsmes?si=bCSt1iZwqvWgmLZH',
+      'https://youtu.be/1QEDDs01-lY?si=itB7RX5v79LxO76Z',
+      'https://youtu.be/Xh0WkHY25KY?si=7oeTa0Hh4vTsG-cb',
+      'https://youtu.be/HcOc7P5BMi4?si=Wu9oA6WRsNT63kHO',
+      'https://youtu.be/5lyKCJlFlUE?si=Q9-zkjzLui9iVQxo',
+      'https://youtu.be/N3gBVPEMab8?si=bWyLTfIJ4RVgCBDV',
+      'https://youtu.be/xXe7coVT9Ms?si=icSc-DlKeJAyLFPL',
+      'https://youtu.be/n62M2pd0-p8?si=9TdJ-sJjBvzpAAvS',
+      'https://youtu.be/6btzCPi26to?si=ZaI0x0C1heIHof7A',
+      'https://youtu.be/CQcB7TwOzWI?si=Z8V8KP21DiP0T6D8',
+      
+      // Add more links here...
+    ];
 
+    // Function to generate 5 random links and assign them to images
+    function generateRandomLinks() {
+      const linksContainer = document.getElementById('linksContainer');
+      linksContainer.innerHTML = ''; // Clear previous links
 
-    
-    
+      const numRandomLinks = 5;
+      const randomIndexes = [];
+
+      while (randomIndexes.length < numRandomLinks) {
+        const randomIndex = Math.floor(Math.random() * linksArray.length);
+        if (!randomIndexes.includes(randomIndex)) {
+          randomIndexes.push(randomIndex);
+        }
+      }
+
+      randomIndexes.forEach((randomIndex, index) => {
+        const link = linksArray[randomIndex];
+
+        // Create an image element
+        const imageElement = document.createElement('img');
+        imageElement.src = 'P' + (index + 1) + '.jpg'; // Replace with your image paths
+        imageElement.addEventListener('click', function () {
+          window.open(link, '_blank'); // Open the link in a new tab when the image is clicked
+        });
+
+        linksContainer.appendChild(imageElement);
+      });
+    }
+
+    // Attach the generateRandomLinks function to the button click event
+    document.getElementById('generateButton').addEventListener('click', generateRandomLinks);
+  </script>
 </body>
 </html>
