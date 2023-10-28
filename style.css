@@ -39,7 +39,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #0E120C; /* Black */
+    background-color: #4A4A4A; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
   }
   
@@ -140,8 +140,8 @@ li{
 
 
 p {
-         color:#65BEED;
-        font-size: 20px;
+         color:#C53453;
+        font-size: 22px;
         }
 
 .notebox {
