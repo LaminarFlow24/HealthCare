@@ -314,18 +314,19 @@ border-left: 4px solid blue;
 
 input[type=search] {
   background-color: white;
-  /*background-image: url(''); */
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding-left: 40px;  
   transition: width 0.4s ease-in-out;
+    
+input[type=search]{
      float: left;
     display: inline-block;
     width: 150px;
     height: 44px;
     padding: 12px 20px 12px 40px;
     border-radius:20px;
-  
+}
   
 }
 input[type=search]:focus {
